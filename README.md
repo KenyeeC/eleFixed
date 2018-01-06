@@ -12,7 +12,7 @@ eleFixed是一款非常简单的使用动画来固定元素的插件（最常见
 ##### 以下为全局eleFixed对象的描述：
 eleFixed对象 | 描述
 --- |---
-targets | Array，用来存放多个需要固定的target对象，target对象格式为
+targets | Array，用来存放多个需要固定的target对象，target对象格式见下表
 push | Function，接受一个target对象并推送元素到targets数组中
 delete | Function，从targets中删除指定的HTMLElement,只需要传入需要删除的HTMLElement对象
 distory | Function，移除eleFixed的监听事件、并删除eleFixed对象
