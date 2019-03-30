@@ -15,7 +15,7 @@ eleFixed对象 | 描述
 targets | Array，用来存放多个需要固定的target对象，target对象格式见下表
 push | Function，接受一个target对象并推送元素到targets数组中
 delete | Function，从targets中删除指定的HTMLElement,只需要传入需要删除的HTMLElement对象
-distory | Function，移除eleFixed的监听事件、并删除eleFixed对象
+destory | Function，移除eleFixed的监听事件、并删除eleFixed对象
 
 
 
@@ -63,7 +63,7 @@ offsetTop | Number，此元素距离顶部多少像素时开始固定在顶部�
 ##### 移除eleFixed:
 ```html
 <script>
-    // distory eleFixed
-    eleFixed.distory()
+    // destory eleFixed
+    eleFixed.destory()
 </script>
 ```

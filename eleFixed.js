@@ -3,7 +3,7 @@
     var eleFixed = {
         targets: [],
         push: null,
-        distory: null,
+        destory: null,
         handler: null,
         delete: null
     }
@@ -43,8 +43,8 @@
         }
     }
 
-    // distory eleFixed in window
-    eleFixed.distory = function () {
+    // destory eleFixed in window
+    eleFixed.destory = function () {
         window.removeEventListener('scroll', eleFixed.handler)
         for(var i in window.eleFixed.targets){
             window.eleFixed.targets[i].target.style.transform = 'translateY(0px)'
